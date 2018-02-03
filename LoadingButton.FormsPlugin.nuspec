@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata minClientVersion="2.8.3">
+		<id>FormsPlugin.LoadingButton</id>
+		<version>1.0.0</version>
+		<title>Loading animated button</title>
+		<authors>Enis Necipoğlu</authors>
+		<owners>Enis Necipoğlu</owners>
+    <licenseUrl></licenseUrl>
+		<projectUrl/>
+		<!--Default Icon, a template can be found:  https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon.png-->
+		<iconUrl>https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon_nuget.png</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>
+         For a loading proccess, a button which allows a animation when pressed it until you stop.
+		</description>
+		<summary>Animated button for loading proccess</summary>
+		<tags>xamarin, pcl, xam.pcl, plugin, plugin for xamarin.forms, windows phone, winphone, wp8, android, xamarin.forms, ios</tags>
+		<dependencies>
+			<group targetFramework="net">
+				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
+			</group>
+			<group targetFramework="win">
+				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
+			</group>
+			<group targetFramework="wp">
+				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
+			</group>
+			<group targetFramework="wpa">
+				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
+			</group>
+			<group targetFramework="MonoAndroid">
+				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
+			</group>
+			<group targetFramework="Xamarin.iOS10">
+				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
+			</group>
+			<group targetFramework="portable-net45+win8+wpa81+wp8">
+				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
+			</group>
+			<group targetFramework="uap">
+				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
+			</group>
+			<group targetFramework="dotnet">
+				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
+			</group>
+		</dependencies>
+	</metadata>
+	<files>
+		<!--Core-->
+		<file src="LoadingButton\LoadingButton.FormsPlugin.Abstractions\bin\Release\LoadingButton.FormsPlugin.Abstractions.dll" target="lib\portable-net45+wp8+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\LoadingButton.FormsPlugin.Abstractions.dll" />
+		<file src="LoadingButton\LoadingButton.FormsPlugin.Abstractions\bin\Release\LoadingButton.FormsPlugin.Abstractions.xml" target="lib\portable-net45+wp8+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\LoadingButton.FormsPlugin.Abstractions.xml" />
+		<file src="LoadingButton\LoadingButton.FormsPlugin.Abstractions\bin\Release\LoadingButton.FormsPlugin.Abstractions.pdb" target="lib\portable-net45+wp8+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\LoadingButton.FormsPlugin.Abstractions.pdb" />
+		
+		<!--dotnet-->
+		<file src="LoadingButton\LoadingButton.FormsPlugin.Abstractions\bin\Release\LoadingButton.FormsPlugin.Abstractions.dll" target="lib\dotnet\LoadingButton.FormsPlugin.Abstractions.dll" />
+		<file src="LoadingButton\LoadingButton.FormsPlugin.Abstractions\bin\Release\LoadingButton.FormsPlugin.Abstractions.xml" target="lib\dotnet\LoadingButton.FormsPlugin.Abstractions.xml" />
+		<file src="LoadingButton\LoadingButton.FormsPlugin.Abstractions\bin\Release\LoadingButton.FormsPlugin.Abstractions.pdb" target="lib\dotnet\LoadingButton.FormsPlugin.Abstractions.pdb" />
+
+		<!--Win Phone Silverlight-->
+		<file src="LoadingButton\LoadingButton.FormsPlugin.WindowsPhone\bin\Release\LoadingButton.FormsPlugin.WindowsPhone.dll" target="lib\wp8\LoadingButton.FormsPlugin.WindowsPhone.dll" />
+		<file src="LoadingButton\LoadingButton.FormsPlugin.WindowsPhone\bin\Release\LoadingButton.FormsPlugin.WindowsPhone.xml" target="lib\wp8\LoadingButton.FormsPlugin.WindowsPhone.xml" />
+		<file src="LoadingButton\LoadingButton.FormsPlugin.WindowsPhone\bin\Release\LoadingButton.FormsPlugin.WindowsPhone.pdb" target="lib\wp8\LoadingButton.FormsPlugin.WindowsPhone.pdb" />
+		<file src="LoadingButton\LoadingButton.FormsPlugin.Abstractions\bin\Release\LoadingButton.FormsPlugin.Abstractions.dll" target="lib\wp8\LoadingButton.FormsPlugin.Abstractions.dll" />
+		<file src="LoadingButton\LoadingButton.FormsPlugin.Abstractions\bin\Release\LoadingButton.FormsPlugin.Abstractions.xml" target="lib\wp8\LoadingButton.FormsPlugin.Abstractions.xml" />
+		<file src="LoadingButton\LoadingButton.FormsPlugin.Abstractions\bin\Release\LoadingButton.FormsPlugin.Abstractions.pdb" target="lib\wp8\LoadingButton.FormsPlugin.Abstractions.pdb" />
+
+		<!--Xamarin.Android-->
+		<file src="LoadingButton\LoadingButton.FormsPlugin.Android\bin\Release\LoadingButton.FormsPlugin.Android.dll" target="lib\MonoAndroid10\LoadingButton.FormsPlugin.Android.dll" />
+		<file src="LoadingButton\LoadingButton.FormsPlugin.Android\bin\Release\LoadingButton.FormsPlugin.Android.xml" target="lib\MonoAndroid10\LoadingButton.FormsPlugin.Android.xml" />
+		<file src="LoadingButton\LoadingButton.FormsPlugin.Android\bin\Release\LoadingButton.FormsPlugin.Android.pdb" target="lib\MonoAndroid10\LoadingButton.FormsPlugin.Android.pdb" />
+		<file src="LoadingButton\LoadingButton.FormsPlugin.Abstractions\bin\Release\LoadingButton.FormsPlugin.Abstractions.dll" target="lib\MonoAndroid10\LoadingButton.FormsPlugin.Abstractions.dll" />
+		<file src="LoadingButton\LoadingButton.FormsPlugin.Abstractions\bin\Release\LoadingButton.FormsPlugin.Abstractions.xml" target="lib\MonoAndroid10\LoadingButton.FormsPlugin.Abstractions.xml" />
+		<file src="LoadingButton\LoadingButton.FormsPlugin.Abstractions\bin\Release\LoadingButton.FormsPlugin.Abstractions.pdb" target="lib\MonoAndroid10\LoadingButton.FormsPlugin.Abstractions.pdb" />
+
+		<!--Xamarin.iOS-->
+		<file src="LoadingButton\LoadingButton.FormsPlugin.iOS\bin\iPhone\Release\LoadingButton.FormsPlugin.iOS.dll" target="lib\Xamarin.iOS10\LoadingButton.FormsPlugin.iOS.dll" />
+		<file src="LoadingButton\LoadingButton.FormsPlugin.iOS\bin\iPhone\Release\LoadingButton.FormsPlugin.iOS.xml" target="lib\Xamarin.iOS10\LoadingButton.FormsPlugin.iOS.xml" />
+		<file src="LoadingButton\LoadingButton.FormsPlugin.Abstractions\bin\Release\LoadingButton.FormsPlugin.Abstractions.dll" target="lib\Xamarin.iOS10\LoadingButton.FormsPlugin.Abstractions.dll" />
+		<file src="LoadingButton\LoadingButton.FormsPlugin.Abstractions\bin\Release\LoadingButton.FormsPlugin.Abstractions.xml" target="lib\Xamarin.iOS10\LoadingButton.FormsPlugin.Abstractions.xml" />
+
+    <!--uap-->
+    <file src="LoadingButton\LoadingButton.FormsPlugin.Uwp\bin\Uwp\Release\LoadingButton.FormsPlugin.UWP.dll" target="lib\UAP10\LoadingButton.FormsPlugin.UWP.dll" />
+    <file src="LoadingButton\LoadingButton.FormsPlugin.Uwp\bin\Uwp\Release\LoadingButton.FormsPlugin.UWP.xml" target="lib\UAP10\LoadingButton.FormsPlugin.UWP.xml" />
+    <file src="LoadingButton\LoadingButton.FormsPlugin.Abstractions\bin\Release\LoadingButton.FormsPlugin.Abstractions.dll" target="lib\UAP10\LoadingButton.FormsPlugin.Abstractions.dll" />
+    <file src="LoadingButton\LoadingButton.FormsPlugin.Abstractions\bin\Release\LoadingButton.FormsPlugin.Abstractions.xml" target="lib\UAP10\LoadingButton.FormsPlugin.Abstractions.xml" />
+    
+	</files>
+</package>
