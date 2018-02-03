@@ -12,7 +12,9 @@
 		<iconUrl>https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon_nuget.png</iconUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>
-         For a loading proccess, a button which allows a animation when pressed it until you stop.
+         Xamarin Forms animated button for loading proccesses. You can start animation and stop, when you stop a done icon will be shown which you set before.
+         
+        If you'll use default Images you should Init this plugin for each platform.
 		</description>
 		<summary>Animated button for loading proccess</summary>
 		<tags>xamarin, pcl, xam.pcl, plugin, plugin for xamarin.forms, windows phone, winphone, wp8, android, xamarin.forms, ios</tags>
